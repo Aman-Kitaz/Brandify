@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Brand Creator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container" id="chatContainer">
+            <div class="chat-header">
+                <h1>AI Brand Creator</h1>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <!-- Chat messages will be dynamically added here -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Type your response...">
+                <button id="sendButton">Send</button>
+            </div>
+        </div>
+        <div class="logo-preview" id="logoPreview" style="display: none;">
+            <h2>Your Generated Logo</h2>
+            <img id="generatedLogo" src="" alt="Generated Logo">
+            <button id="downloadLogoButton">Download Logo</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
