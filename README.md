@@ -33,10 +33,15 @@ Brandify/
 ## How It Works
 
 1. **User Input:** The frontend collects user input, such as business type or theme.
+![PHOTO-2025-05-10-16-52-00](https://github.com/user-attachments/assets/bb68508b-366a-4c3f-a424-4c270d3ce87e)
+
 2. **Backend Processing:**
    - `gpt_handler.py` uses the GPT-4o API to generate a brand name.
    - `logo_generator.py` integrates DeepFloyd to create a logo based on the generated brand name.
 3. **Display Results:** The results are sent back to the frontend and rendered in the browser.
+Here’s an example of a generated brand result:
+![PHOTO-2025-04-04-19-21-10](https://github.com/user-attachments/assets/03c1196e-cc8e-4e61-9e47-60f26c3db435)
+![PHOTO-2025-04-04-19-21-10 2](https://github.com/user-attachments/assets/537421f1-fd11-4921-93d5-cfa95de557ea)
 
 ---
 
