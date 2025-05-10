@@ -40,7 +40,7 @@ Brandify/
 
 ---
 
-## Technologies Used
+## Models Used
 
 - **OpenAI GPT-4o API:** For generating brand names.
 - **DeepFloyd IF Model:** For creating AI-generated logos.
