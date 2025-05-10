@@ -48,7 +48,7 @@ Here’s an example of a generated brand result:
 ## Models Used
 
 - **OpenAI GPT-4o API:** For generating brand names.
-- **DeepFloyd IF Model:** For creating AI-generated logos.
+- **DeepFloyd IF Model:** For creating AI-generated logos. https://huggingface.co/DeepFloyd/IF-II-L-v1.0
 - **Python & Flask:** Backend logic and optional web server.
 - **HTML, CSS, JavaScript:** Frontend development.
 
