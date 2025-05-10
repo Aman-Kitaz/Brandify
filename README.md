@@ -57,7 +57,7 @@ Here’s an example of a generated brand result:
 ## Author
 
 - **Aman Kitaz**
-- **Nour El Houda**: https://github.com/NourEHBY23
+- **Nour El Houda**
 - **Shatha**
 
  ---
